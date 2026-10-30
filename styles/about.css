@@ -1,0 +1,48 @@
+/* === FONT === */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* === LATAR === */
+
+#about {
+    background-image: url("../assets/images/Art\ by\ HannaCA\ 🍎\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 90px;
+}
+
+.about-box {
+    width: 620px;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 1);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* === TEKS === */
+
+.about-box h2 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+    color: gold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
