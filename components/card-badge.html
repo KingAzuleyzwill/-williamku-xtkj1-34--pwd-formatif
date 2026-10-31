@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card badge</title>
+
+
+    <style>
+        
+        body {
+            margin: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        #top {
+            padding: 10px;
+            background-color: #808080;
+            color: azure;
+        }
+
+        .card {
+            position: relative;
+            width: 360px;
+            margin: 30px auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .card .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: aqua;
+            border-radius: 10px;
+            padding: 5px 10px;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+            background-color: navy;
+            color: white ;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .back-to-top:hover {
+            background-color: red;
+        }
+
+        main p {
+            width: 360px;
+            text-align: left;
+            margin: 20px auto;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            display: block;
+            object-fit: cover;
+             
+        }  
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            color: navy;
+        }
+
+        .card p {
+            text-align: left;
+        }
+
+        
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <header id="top">
+        <h1>
+            Proyek Saya
+        </h1>
+    </header>
+
+    <main>
+        <div class="card">
+
+            <img src="../assets/images/viral.jpg" alt="foto">
+
+
+            <span class="badge">BARU</span>
+
+            <h3>Aplikasi Pencatat keuangan </h3>
+
+            <p>
+                Aplikasi ini dapat membantu anda mencatat pengeluaran serta pemasukan uang anda secara manual
+            </p>
+        </div>
+        
+        <p>
+            Saya sedang dalam proses belajar HTML dan CSS. Pada bagian ini, saya mencoba untuk membuat card badge dengan paragraf didalamnya. </p>
+
+        <p>
+            Bagian ini sengaja dibuat memanjang agar halaman bisa digulir dan tombol "Keatas" terlihat tetap berada di pojok layar. </p>
+
+        <p>Saya mencoba membuat tombol "Keatas" dengan css dan mencoba mempelajarinya bagaimana cara kerjanya serta apa saja kode yang diperlukan dalam membuatnya.</p>    
+
+        <p>
+            Selain itu saya mencoba membuat label "BARU" dengan css dan mencoba mempelajarinya bagaimana cara kerjanya serta apa saja kode yang diperlukan dalam membuatnya.</p>
+
+        <p>
+            Saya juga mencoba menghias header dengan css dan mendapatkan hasil yang bagus serta menarik. </p>
+
+        <p>
+            Saya sangat suka jika website yang saya buat rapi dan berhasil serta enak dilihat, apalagi jika sudah menguasai css maka sudah gampang dalam menghias website. </p>
+
+        <p>
+            Jika website saya menarik dan sudah diakui orang lain, maka saya bisa membuat jasa membuat website untuk orang orang dan menghasilkan uang. </p>
+
+
+        <footer>
+            <a href="../index.html">Kembali ke Beranda</a>
+        </footer>
+
+    </main>
+
+    <a href="#top" class="back-to-top">Ke Atas</a>
+    
+
+
+</body>
+</html>
