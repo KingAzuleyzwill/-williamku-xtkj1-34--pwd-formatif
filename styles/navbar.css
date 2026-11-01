@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+#main-header {
+    background-color: grey;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu > li {
+    list-style: none;
+}
+
+.nav-menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-family: arial, sans-serif;
+}
