@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+
+#components h2,
+#pages h2 {
+    color: black;
+    font-size: 24px;
+}
+
+main a {
+    color: red;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    background-color: grey;
+}
+
