@@ -1,0 +1,40 @@
+.menu a {
+    transition: color 0.3s ease ;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn-grow {
+    transition: transform 0.3s ease-out;
+    background-color: beige;
+}
+
+.btn-grow:hover {
+    transform: scale(1.05);
+}
+
+.btn-darken {
+    transition: background-color 0.4s linear;
+}
+
+.btn-darken:hover {
+    background-color: grey;
+}
+
+a:focus {
+    outline: 2px solid black;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
